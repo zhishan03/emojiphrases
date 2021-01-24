@@ -37,9 +37,12 @@ import io.ktor.application.call
 import io.ktor.auth.authenticate
 import io.ktor.auth.authentication
 import io.ktor.freemarker.FreeMarkerContent
-import io.ktor.request.*
-import io.ktor.response.*
-import io.ktor.routing.*
+import io.ktor.request.receiveParameters
+import io.ktor.response.respond
+import io.ktor.response.respondRedirect
+import io.ktor.routing.Route
+import io.ktor.routing.get
+import io.ktor.routing.post
 
 const val PHRASES = "/phrases"
 
@@ -50,6 +53,7 @@ fun Route.phrases(db: Repository) {
             val phrases = db.phrases()
             call.respond(FreeMarkerContent("phrases.ftl", mapOf("phrases" to phrases, "displayName" to user.displayName)))
         }
+
         post(PHRASES) {
             val params = call.receiveParameters()
             val emoji = params["emoji"] ?: throw IllegalArgumentException("Missing parameter: emoji")
