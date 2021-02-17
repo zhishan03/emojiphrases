@@ -35,4 +35,5 @@ dependencies {
     compile "com.ryanharter.ktor:ktor-moshi:$moshi_version"
     compile "io.ktor:ktor-freemarker:$ktor_version"
     compile "io.ktor:ktor-auth:$ktor_version"
+    compile "io.ktor:ktor-locations:$ktor_version"
 }
