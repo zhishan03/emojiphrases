@@ -1,6 +1,7 @@
 # emojiphrases
 
-Emoji Phrases: Phrases that are encoded in emojis 
+## Emoji Phrases: 
+Phrases that are encoded in emojis 
 
 Example (Films): 
 👳🏽‍♀️🛶🐯: Life of Pi
