@@ -1,4 +1,4 @@
-# emojiphrases
+# emojiphrases: A REST API with Ktor where users post Emoji Phrases!
 
 #### Emoji Phrases: Phrases that are encoded in emojis 
 
