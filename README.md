@@ -1,14 +1,15 @@
 # emojiphrases
 
-### Emoji Phrases: Phrases that are encoded in emojis 
+#### Emoji Phrases: Phrases that are encoded in emojis 
 
-Example (Films): 
-👳🏽‍♀️🛶🐯: Life of Pi
-👨🏻👨🏻❤️🏔️: Brokeback Mountain
+Examples:
+1. 🏄‍♂️💻: Surfing the web
+2. 📚🏠😫💻✏️: Doing my homework
+3. 🎤😍: I love music
 
 <img src="https://github.com/zhishan03/emojiphrases/blob/master/phrase.png" alt="alt text" width="900" height="200">
 
-### Progress:
+#### Progress:
 Completed so far
 * API Post Endpoint
 * Get Route
