@@ -1,8 +1,7 @@
 # EmojiPhrases:
 
-#### This is a REST API with Ktor where users share their Emoji Phrases.
-
 #### Emoji Phrases: Phrases that are encoded in emojis 
+#### This is a REST API with Ktor where users share their Emoji Phrases.
 
 Examples:
 1. 🏄‍♂️💻: Surfing the web
