@@ -8,7 +8,9 @@ Completed so far:
 * Templating with Free Marker
 * Beautify with Bootstrap
 * Basic Authentication
+* Type-safe routing
 
 What to do next: 
-* Type-safe routing
-* Persistence and Sessions
+* Data Persistence
+* Sessions
+* Deployment
