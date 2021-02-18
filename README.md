@@ -8,9 +8,8 @@ Examples:
 3. 🎤😍: I love music
 
 <img src="https://github.com/zhishan03/emojiphrases/blob/master/phrase.png" alt="alt text" width="900" height="200">
-
-
-
+<br />
+<br />
 #### Progress:
 Completed so far
 * API Post Endpoint
